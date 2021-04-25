@@ -46,14 +46,6 @@ header > h1, #art > h1, #engine-repair > h1, #development > h1, #contact > h1, #
     align-items: center;
 }
 
-#engine-repair {
-
-}
-
-#development {
-
-}
-
 #development > img {
     height: 50px;
 }
@@ -61,6 +53,15 @@ header > h1, #art > h1, #engine-repair > h1, #development > h1, #contact > h1, #
 .image-container {
     /* background-color: var(--cyangreen); */
     max-width: 700px;
+}
+
+#title {
+    display: flex;
+    justify-content: center;
+}
+
+#title > h3 {
+    height: 8px;
 }
 
 .synx-logo {
