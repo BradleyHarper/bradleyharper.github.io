@@ -22,12 +22,12 @@
   <a href="">Development</a> -->
 
   <div id="art">
-    <h1>Art / Designs</h1>
+    <h1>Art & Designs</h1>
     <img src="./assets/gifs/Artist-Palette.gif" alt="">
-    <p>I create designs and sell them locally / etsy. Here are some examples!</p>
+    <p>I create designs and sell them via Etsy & locally.</p>
     <p>I encourage you to visit my Etsy store as well as Instagram to see a little bit more behind the scenes.</p>
-    <p> => <a href="https://www.etsy.com/shop/NeochromaDesigns">Click here for the Etsy shop</a> <= </p>
-    <p> => <a href="https://www.instagram.com/neochromadesigns/">Click here for my Instagram</a> <= </p>
+    <p> => <a href="https://www.etsy.com/shop/NeochromaDesigns">Etsy shop</a> <= </p>
+    <p> => <a href="https://www.instagram.com/neochromadesigns/">Instagram</a> <= </p>
     <div class="image-container">
       <img src="./assets/images/bluegreenblobs2.png" alt="sticker design">
       <img src="./assets/images/Scan-edited-final.png" alt="sticker design">
@@ -47,8 +47,14 @@
   </div>
 
   <div id="development">
-    <h1>Software-development</h1>
+    <h1>Software Development</h1>
     <img src="./assets/gifs/smashingcomputer.gif" alt="">
+    <ul>
+      <h4>Main</h4>
+      <li>
+        Software engineer working with Node.js v9+ | Vue v2+ | React v15+ | Angular v5+
+      </li>
+    </ul>
     <ul>
       <h4>Communication</h4>
       <li>
@@ -109,7 +115,36 @@
   </div>
 
   <footer>
-    <h4>Made by Bradley | proud static website free of javascript</h4>
+    <div id="contact">
+      <h1>
+        Contact
+      </h1>
+      <form autocomplete="off" action="https://formspree.io/xqkyjlzp" method="POST">
+        <div class="input-field">
+          <input type="email" name="Sender's Email" id="email" class="validate" placeholder="Email:">
+        </div>
+        <br>
+        <div class="input-field">
+          <input type="text" name="message" id="message" class="validate" placeholder="Message:">
+        </div>
+        <br>
+        <button class="btn waves-effect waves-light orange darken-2" type="submit" name="action" style="z-index: auto">Send or hit Enter</button>
+      </form>
+    </div>
+
+    <div id="donate">
+      <h1>
+        Donate
+      </h1>
+      <h4>
+        Feel free to help me out however you can, thank you!
+      </h4>
+      <form action="https://www.paypal.com/donate" method="post" target="_top">
+        <input type="hidden" name="hosted_button_id" value="JZN4ETG24EURS" />
+        <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_donate_LG.gif" border="0" name="submit" title="PayPal - The safer, easier way to pay online!" alt="Donate with PayPal button" />
+        <img alt="" border="0" src="https://www.paypal.com/en_US/i/scr/pixel.gif" width="1" height="1" />
+        </form>
+    </div>
   </footer>
 </body>
 </html>
