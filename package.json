@@ -1,0 +1,19 @@
+{
+  "name": "forever-personal-website",
+  "version": "1.0.0",
+  "description": "Static and reliable website. Good for forever.",
+  "main": "scripts.js",
+  "scripts": {
+    "serve": "http-server ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BradleyHarper/forever-personal-website.git"
+  },
+  "author": "Bradley Harper",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/BradleyHarper/forever-personal-website/issues"
+  },
+  "homepage": "https://github.com/BradleyHarper/forever-personal-website#readme"
+}

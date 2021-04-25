@@ -3,24 +3,25 @@
     src: URL('./assets/fonts/opensans/OpenSans-Regular.ttf') format('truetype');
 }
 
-* {
-    margin: 0;
-    padding: 0;
-}
-
 html {
     background-color: antiquewhite;
 }
 
+body {
+    text-align: center;
+}
+
 header {
-    /* background-color: whitesmoke; */
     display: flex;
+    justify-content: center;
     align-items: center;
+    padding-top: 10px;
     font-family: 'Open Sans', sans-serif;
 }
 
 header > h1 {
     text-decoration: underline;
+    font-family: 'Open Sans', sans-serif;
 }
 
 .synx-logo {
