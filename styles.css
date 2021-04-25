@@ -63,10 +63,6 @@ header > h1, #art > h1, #engine-repair > h1, #development > h1, #contact > h1, #
     max-width: 700px;
 }
 
-.image-container > img {
-    height: 200px;
-}
-
 .synx-logo {
     height: 50px;
     padding: 0 10px;
