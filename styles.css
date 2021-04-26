@@ -3,14 +3,11 @@
     src: URL('./assets/fonts/opensans/OpenSans-Regular.ttf') format('truetype');
 }
 
-/* @media only screen and (min-width: 1000px) {
-    html {
-        background-size: 500px;
+@media only screen and (min-width: 800px) {
+    body {
+        margin: 0;
+        background-color: black;
     }
-} */
-
-:root {
-    --cyangreen: #bbd0c9;
 }
 
 html {
@@ -20,6 +17,7 @@ html {
 }
 
 body {
+    margin: 0 10vw;
     text-align: center;
     font-family: 'Open Sans', sans-serif;
     background-color: rgba(255,255,255,0.9);
@@ -45,7 +43,8 @@ ul, li {
     list-style-type:none; 
 }
 
-header > h1, #art > h1, #engine-repair > h1, #development > h1, #contact > h1, #donate-title > h1 {
+header > h1, #art > h1, #engine-repair > h1, #contact > h1, #donate-title > h1,
+#development-title > h1 {
     text-decoration: underline;
 }
 
@@ -55,16 +54,15 @@ header > h1, #art > h1, #engine-repair > h1, #development > h1, #contact > h1, #
     align-items: center;
 }
 
-#development > img {
+#development-title > img {
     height: 50px;
 }
 
 .image-container {
-    /* background-color: var(--cyangreen); */
     max-width: 700px;
 }
 
-#title, #donate-title {
+#donate-title, #development-title {
     display: flex;
     justify-content: center;
 }
