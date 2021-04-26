@@ -3,17 +3,26 @@
     src: URL('./assets/fonts/opensans/OpenSans-Regular.ttf') format('truetype');
 }
 
+/* @media only screen and (min-width: 1000px) {
+    html {
+        background-size: 500px;
+    }
+} */
+
 :root {
     --cyangreen: #bbd0c9;
 }
 
 html {
-    background-color: antiquewhite;
+    background-color: black;
+    background-image: url("./assets/images/Scan-grouped2\ \(Custom\).png");
+    background-size: 1000px;
 }
 
 body {
     text-align: center;
     font-family: 'Open Sans', sans-serif;
+    background-color: rgba(255,255,255,0.9);
 }
 
 header {
@@ -36,7 +45,7 @@ ul, li {
     list-style-type:none; 
 }
 
-header > h1, #art > h1, #engine-repair > h1, #development > h1, #contact > h1, #donate > h1 {
+header > h1, #art > h1, #engine-repair > h1, #development > h1, #contact > h1, #donate-title > h1 {
     text-decoration: underline;
 }
 
@@ -55,7 +64,7 @@ header > h1, #art > h1, #engine-repair > h1, #development > h1, #contact > h1, #
     max-width: 700px;
 }
 
-#title {
+#title, #donate-title {
     display: flex;
     justify-content: center;
 }
