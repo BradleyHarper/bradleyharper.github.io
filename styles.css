@@ -63,22 +63,28 @@ header > h1, #art > h1, #engine-repair > h1, #contact > h1, #donate-title > h1,
     justify-content: center;
 }
 
+#donate-title {
+    padding: 20px 0;
+}
+
+#donate-title > img {
+    height: 40px;
+}
+
 #title > h3 {
     height: 8px;
 }
 
 .flame {
     position: absolute;
-    left: 220px;
-    z-index: 1;
 }
 
 .image-container {
     max-width: 700px;
 }
 
-.image-container > img {
-    z-index: 2;
+.image-with-flame {
+    display: inline-block;
 }
 
 .synx-logo {
