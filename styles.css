@@ -43,6 +43,10 @@ ul, li {
     list-style-type:none; 
 }
 
+li {
+    font-size: 16px;
+}
+
 header > h1, #art > h1, #engine-repair > h1, #contact > h1, #donate-title > h1,
 #development-title > h1 {
     text-decoration: underline;
