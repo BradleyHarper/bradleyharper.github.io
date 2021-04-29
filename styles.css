@@ -18,16 +18,13 @@ html {
 
 body {
     margin: 20px 10vw;
-    border: black solid 3px;
+    border: black solid 5px;
     text-align: center;
     font-family: 'Open Sans', sans-serif;
     background-color: rgba(255,255,255,0.9);
 }
 
 header {
-    display: flex;
-    justify-content: center;
-    align-items: center;
     padding-top: 10px;
 }
 
@@ -49,7 +46,7 @@ li {
 }
 
 header > h1, #art > h1, #engine-repair > h1, #contact > h1, #donate-title > h1,
-#development-title > h1 {
+#development-title > h1, .contact-title {
     text-decoration: underline;
 }
 
@@ -63,9 +60,14 @@ header > h1, #art > h1, #engine-repair > h1, #contact > h1, #donate-title > h1,
     height: 50px;
 }
 
-#donate-title, #development-title {
+header, #donate-title, #development-title, .donate-button, .contact-title, #etsy-link, #instagram-link {
     display: flex;
     justify-content: center;
+    align-items: center;
+}
+
+header > img, #donate-title > img, #development-title > img, .donate-button > img, .contact-title > img {
+    padding: 0 10p;
 }
 
 #donate-title {
@@ -76,8 +78,16 @@ header > h1, #art > h1, #engine-repair > h1, #contact > h1, #donate-title > h1,
     height: 40px;
 }
 
+#etsy-link > img, #instagram-link > img {
+    height: 20px;
+}
+
 #title > h3 {
     height: 8px;
+}
+
+.contact-submit-button {
+    border: 3px solid black;
 }
 
 .flame {

@@ -8,20 +8,31 @@
 </head>
 
 <body>
-  <script src="./scripts.js"></script>
   <header>
     <img class="synx-logo" src="./assets/images/synxLogoResized.png" alt="My personal logo">
-    <h1>Bradley Harper</h1>
+      <h1>✧･ﾟ:*Bradley&nbsp;Harper*:･ﾟ✧*</h1>
     <img class="synx-logo" src="./assets/images/synxLogoResized.png" alt="My personal logo">
   </header>
 
   <div id="art">
     <h1>Art & Designs</h1>
-    <img src="./assets/gifs/Artist-Palette.gif" alt="">
+    <img src="./assets/gifs/Artist-Palette.gif" alt="Artist-Palette">
     <h3>I create designs and sell them via Etsy & locally.</h3>
     <p>I encourage you to visit my Etsy store as well as Instagram to see a little bit more behind the scenes.</p>
-    <h3> => <a href="https://www.etsy.com/shop/NeochromaDesigns">Etsy shop</a> <= </h3>
-    <h3> => <a href="https://www.instagram.com/neochromadesigns/">Instagram</a> <= </h3>
+    <div id="etsy-link">
+      <h3> => </h3>
+        <img src="./assets/gifs/icons8-etsy-48.png" alt="etsy">
+        <a href="https://www.etsy.com/shop/NeochromaDesigns"> Etsy shop </a>
+        <img src="./assets/gifs/icons8-etsy-48.png" alt="etsy">
+      <h3> <= </h3>
+    </div>
+    <div id="instagram-link">
+      <h3> => </h3>
+      <img src="./assets/gifs/icons8-instagram.gif" alt="instagram-icon">
+      <a href="https://www.instagram.com/neochromadesigns/"> Instagram </a>
+      <img src="./assets/gifs/icons8-instagram.gif" alt="instagram-icon">
+      <h3> <= </h3>
+    </div>
     <div class="image-container">
       <div class="image-with-flame">
         <img class="flame" src="./assets/gifs/flame.gif" alt="flame">
@@ -45,9 +56,9 @@
 
   <div id="development">
     <div id="development-title">
-      <img src="./assets/gifs/smashingcomputer.gif" alt="">
+      <img src="./assets/gifs/TuxProgramming.gif" alt="">
       <h1>Software Development</h1>
-      <img src="./assets/gifs/smashingcomputer.gif" alt="">
+      <img src="./assets/gifs/TuxProgramming.gif" alt="">
     </div>
     <ul>
       <h4>Main</h4>
@@ -116,38 +127,43 @@
 
   <footer>
     <div id="contact">
-      <h1>
-        Contact
-      </h1>
+      <div class="contact-title">
+        <img src="./assets/gifs/computer_e-mail.gif" alt="email">
+        <h1>
+          Contact
+        </h1>
+        <img src="./assets/gifs/computer_e-mail.gif" alt="email">
+      </div>
       <form autocomplete="off" action="https://formspree.io/xqkyjlzp" method="POST">
         <div class="input-field">
           <input type="email" name="Sender's Email" id="email" class="validate" placeholder="Email:">
         </div>
         <br>
         <div class="input-field">
-          <input type="text" name="message" id="message" class="validate" placeholder="Message:">
+          <!-- <input type="text" name="message" id="message" class="validate" placeholder="Message:"> -->
+          <textarea name="message" id="message" cols="30" rows="10" placeholder="Enter your message here :D"></textarea>
         </div>
         <br>
-        <button class="btn waves-effect waves-light orange darken-2" type="submit" name="action" style="z-index: auto">Send or hit Enter</button>
+        <button class="contact-submit-button" type="submit" name="action" style="z-index: auto">Send it!</button>
       </form>
     </div>
 
     <div id="donate">
+      <h4>
+        Feel free to support me however you can.
+      </h4>
       <div id="donate-title">
         <img src="./assets/gifs/money.gif" alt="Dollar Sign">
-        <h1>
-          Donate
-        </h1>
+        <form class="donate-button" action="https://www.paypal.com/donate" method="post" target="_top">
+          <input type="hidden" name="hosted_button_id" value="JZN4ETG24EURS" />
+          <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_donate_LG.gif" border="0" name="submit" title="PayPal - The safer, easier way to pay online!" alt="Donate with PayPal button" />
+          <img alt="" border="0" src="https://www.paypal.com/en_US/i/scr/pixel.gif" width="1" height="1" />
+        </form>
         <img src="./assets/gifs/money.gif" alt="Dollar Sign">
       </div>
       <h4>
-        Feel free to help me out however you can, thank you!
+        If you do donate let me know your address. I'll get some stickers sent out to you!
       </h4>
-      <form action="https://www.paypal.com/donate" method="post" target="_top">
-        <input type="hidden" name="hosted_button_id" value="JZN4ETG24EURS" />
-        <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_donate_LG.gif" border="0" name="submit" title="PayPal - The safer, easier way to pay online!" alt="Donate with PayPal button" />
-        <img alt="" border="0" src="https://www.paypal.com/en_US/i/scr/pixel.gif" width="1" height="1" />
-      </form>
     </div>
     <h3>
       Made by me and proud to be javascript free

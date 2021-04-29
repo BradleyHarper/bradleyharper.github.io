@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/BradleyHarper/forever-personal-website/issues"
   },
-  "homepage": "https://github.com/BradleyHarper/forever-personal-website#readme"
+  "homepage": "https://github.com/BradleyHarper/forever-personal-website#readme",
+  "dependencies": {
+    "http-server": "^0.12.3"
+  }
 }
