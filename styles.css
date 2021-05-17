@@ -13,7 +13,7 @@
 html {
     background-color: black;
     background-image: url("./assets/images/Scan-grouped2\ \(Custom\).png");
-    background-size: 1000px;
+    background-size: 500px;
 }
 
 body {
@@ -104,6 +104,10 @@ header > img, #donate-title > img, #development-title > img, .donate-button > im
 
 .image-with-flame {
     display: inline-block;
+}
+
+.monero-icon {
+    height: 25px;
 }
 
 .synx-logo {
