@@ -11,13 +11,14 @@
 }
 
 html {
-    background-color: black;
+    background-color: cyan; 
     background-image: url("./assets/images/Scan-grouped2\ \(Custom\).png");
-    background-size: 500px;
+    background-size: 800px;
 }
 
 body {
     margin: 20px 10vw;
+    padding: 0 10px;
     border: black solid 5px;
     text-align: center;
     font-family: 'Open Sans', sans-serif;
@@ -60,7 +61,7 @@ header > h1, #art > h1, #engine-repair > h1, #contact > h1, #donate-title > h1,
     height: 50px;
 }
 
-header, #donate-title, #development-title, .donate-button, .contact-title, #etsy-link, #instagram-link {
+header, #donate-title, #development-title, .donate-button, .contact-title, #etsy-link, #instagram-link, #twitter-link {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -78,7 +79,7 @@ header > img, #donate-title > img, #development-title > img, .donate-button > im
     height: 40px;
 }
 
-#etsy-link > img, #instagram-link > img {
+#etsy-link > img, #instagram-link > img, #twitter-link > img {
     height: 20px;
 }
 
@@ -108,6 +109,14 @@ header > img, #donate-title > img, #development-title > img, .donate-button > im
 
 .monero-icon {
     height: 25px;
+}
+
+.monero-string {
+    word-break: break-all;
+}
+
+.please-dont-think-its-sus {
+    word-break: break-word;
 }
 
 .synx-logo {
