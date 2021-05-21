@@ -46,6 +46,13 @@
       <img src="./assets/images/twitter-logo.svg" alt="twitter-logo">
       <h3> <= </h3>
     </div>
+    <div id="facebook-link">
+      <h3> => </h3>
+      <img src="./assets/images/f_logo_RGB-Blue_58.png" alt="facebook-logo">
+      <a href="https://www.facebook.com/NeochromaDesigns-100152848944278"> Facebook </a>
+      <img src="./assets/images/f_logo_RGB-Blue_58.png" alt="facebook-logo">
+      <h3> <= </h3>
+    </div>
     <div class="image-container">
       <div class="image-with-flame">
         <img class="flame" src="./assets/gifs/flame.gif" alt="flame">
@@ -56,6 +63,9 @@
       <img src="./assets/images/Scan-final (Custom).png" alt="sticker design">
       <img src="./assets/images/final (Custom).png" alt="sticker design">
       <img src="./assets/images/FINAL! (Custom).png" alt="sticker design">
+      <img src="./assets/images/edited-circlified (Custom).png" alt="character bust">
+      <img src="./assets/images/edited (Custom).png" alt="smoking city scape">
+      <img src="./assets/images/Scan (Custom).png" alt="big colorful mess">
     </div>
   </div>
 
@@ -177,6 +187,31 @@
         <button class="contact-submit-button" type="submit" name="action" style="z-index: auto">Send it!</button>
       </form>
     </div>
+
+    <!-- Messenger Chat Plugin Code -->
+    <div id="fb-root"></div>
+      <script>
+        window.fbAsyncInit = function() {
+          FB.init({
+            xfbml            : true,
+            version          : 'v10.0'
+          });
+        };
+
+        (function(d, s, id) {
+          var js, fjs = d.getElementsByTagName(s)[0];
+          if (d.getElementById(id)) return;
+          js = d.createElement(s); js.id = id;
+          js.src = 'https://connect.facebook.net/en_US/sdk/xfbml.customerchat.js';
+          fjs.parentNode.insertBefore(js, fjs);
+        }(document, 'script', 'facebook-jssdk'));
+      </script>
+
+      <!-- Your Chat Plugin code -->
+      <div class="fb-customerchat"
+        attribution="biz_inbox"
+        page_id="100152848944278">
+      </div>
 
     <div id="donate">
       <h3>Donate via PayPal.</h3>
