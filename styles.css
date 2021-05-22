@@ -18,8 +18,9 @@ html {
 
 body {
     margin: 20px 10vw;
-    padding: 0 10px;
+    padding: 0 20px;
     border: black solid 5px;
+    border-radius: 50px;
     text-align: center;
     font-family: 'Open Sans', sans-serif;
     background-color: rgba(255,255,255,0.9);
@@ -81,6 +82,27 @@ header > img, #donate-title > img, #development-title > img, .donate-button > im
 
 #etsy-link > img, #instagram-link > img, #twitter-link > img, #facebook-link > img {
     height: 20px;
+}
+
+#social-media {
+    display: flex;
+    padding-bottom: 15px;
+}
+
+#social-media-disclaimer {
+    background-color: antiquewhite;
+    border: 3px solid;
+    border-radius: 30px;
+    width: 150px;
+    margin: 0 20px;
+}
+
+#social-media-disclaimer > h5{
+    padding: 0 5px;
+}
+
+#social-media-links {
+
 }
 
 #title > h3 {
