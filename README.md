@@ -1,3 +1,1 @@
-# My forever personal website 
-## Why?
-KISS
+#K.I.S.S.
