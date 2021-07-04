@@ -62,7 +62,7 @@ header > h1, #art > h1, #engine-repair > h1, #contact > h1, #donate-title > h1,
     height: 50px;
 }
 
-header, #donate-title, #development-title, .donate-button, .contact-title, #etsy-link, #instagram-link, #twitter-link, #facebook-link {
+header, #donate-title, #development-title, .donate-button, .contact-title, #etsy-link, #instagram-link, #twitter-link, #facebook-link, #telegram-link, #discord-link {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -80,7 +80,7 @@ header > img, #donate-title > img, #development-title > img, .donate-button > im
     height: 40px;
 }
 
-#etsy-link > img, #instagram-link > img, #twitter-link > img, #facebook-link > img {
+#etsy-link > img, #instagram-link > img, #twitter-link > img, #facebook-link > img, #discord-link > img, #telegram-link > img{
     height: 20px;
 }
 
@@ -140,6 +140,20 @@ header > img, #donate-title > img, #development-title > img, .donate-button > im
 .please-dont-think-its-sus {
     word-break: break-word;
 }
+
+.rotation img {
+    -webkit-transition: all 1s ease-in-out;
+    -moz-transition: all 1s ease-in-out;
+    -o-transition: all 1s ease-in-out;
+    -ms-transition: all 1s ease-in-out;
+    }
+    
+    .rotation img:hover {
+    -webkit-transform: rotate(360deg);
+    -moz-transform: rotate(360deg);
+    -o-transform: rotate(360deg);
+    -ms-transform: rotate(360deg);
+    }
 
 .synx-logo {
     height: 50px;
