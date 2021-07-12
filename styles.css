@@ -27,6 +27,9 @@ body {
 }
 
 header {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
     padding-top: 10px;
 }
 
@@ -107,6 +110,19 @@ header > img, #donate-title > img, #development-title > img, .donate-button > im
 
 #title > h3 {
     height: 8px;
+}
+
+.commission-link {
+    padding: 20px;
+}
+
+.commission-link:hover {
+    background-color: grey;
+}
+
+.commission-link-container {
+    display: flex;
+    flex-direction: row;
 }
 
 .contact-submit-button {
