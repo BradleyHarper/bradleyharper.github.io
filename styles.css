@@ -85,7 +85,7 @@ header > img, #donate-title > img, #development-title > img, .donate-button > im
 }
 
 #etsy-link > img, #instagram-link > img, #twitter-link > img, #facebook-link > img, 
-#discord-link > img, #telegram-link > img, #patreon-link > img {
+#discord-link > img, #telegram-link > img, #patreon-link > img, .furry-zone > img {
     height: 20px;
 }
 
@@ -137,6 +137,12 @@ header > img, #donate-title > img, #development-title > img, .donate-button > im
 
 .flame {
     position: absolute;
+}
+
+.furry-zone {
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
 }
 
 .image-container {
