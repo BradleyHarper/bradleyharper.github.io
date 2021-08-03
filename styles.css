@@ -50,7 +50,7 @@ li {
     font-size: 16px;
 }
 
-header > h1, #art > h1, #engine-repair > h1, #contact > h1, #donate-title > h1,
+header > h1, #art > h1, #engine-repair > h1, #contact > h1, #paypal-donate > h1,
 #development-title > h1, .contact-title {
     text-decoration: underline;
 }
@@ -65,22 +65,22 @@ header > h1, #art > h1, #engine-repair > h1, #contact > h1, #donate-title > h1,
     height: 50px;
 }
 
-header, #donate-title, #development-title, .donate-button, .contact-title, #etsy-link, 
+header, #paypal-donate, #development-title, .donate-button, .contact-title, #etsy-link, 
 #instagram-link, #twitter-link, #facebook-link, #telegram-link, #discord-link, #patreon-link {
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-header > img, #donate-title > img, #development-title > img, .donate-button > img, .contact-title > img {
+header > img, #paypal-donate > img, #development-title > img, .donate-button > img, .contact-title > img {
     padding: 0 10p;
 }
 
-#donate-title {
-    padding: 20px 0;
+#donate {
+    max-width: 777px;
 }
 
-#donate-title > img {
+#paypal-donate > img {
     height: 40px;
 }
 
@@ -104,10 +104,6 @@ header > img, #donate-title > img, #development-title > img, .donate-button > im
 
 #social-media-disclaimer > h5{
     padding: 0 5px;
-}
-
-#social-media-links {
-
 }
 
 #title > h3 {
@@ -153,8 +149,23 @@ header > img, #donate-title > img, #development-title > img, .donate-button > im
     display: inline-block;
 }
 
-.monero-icon {
+.monero-icon, .cashapp-icon {
     height: 25px;
+}
+
+.monero-donate, .cashapp-donate, .venmo-donate, #paypal-donate {
+    background-color: lightgreen;
+    border-radius: 30px;
+}
+
+.venmo-donate > h3, .cashapp-donate > h3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.venmo-icon {
+    height: 50px;
 }
 
 .monero-string {
