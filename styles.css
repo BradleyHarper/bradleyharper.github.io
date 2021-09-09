@@ -149,6 +149,11 @@ header > img, #paypal-donate > img, #development-title > img, .donate-button > i
     display: inline-block;
 }
 
+.line-break {
+    height: 3px;
+    background-color: black;
+}
+
 .monero-icon, .cashapp-icon {
     height: 25px;
 }
