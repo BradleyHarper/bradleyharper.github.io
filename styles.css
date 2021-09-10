@@ -1,6 +1,6 @@
 @font-face {
-    font-family:'Open Sans';
-    src: URL('./assets/fonts/opensans/OpenSans-Regular.ttf') format('truetype');
+    font-family:'whitneylight';
+    src: URL('./assets/fonts/whitneylight.otf') format('otf');
 }
 
 @media only screen and (min-width: 800px) {
@@ -22,7 +22,7 @@ body {
     border: black solid 5px;
     border-radius: 50px;
     text-align: center;
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'whitneylight', sans-serif;
     background-color: rgba(255,255,255,0.85);
 }
 
@@ -84,7 +84,7 @@ header > h1, #art > h1, #engine-repair > h1, #contact > h1, #paypal-donate > h1,
 }
 
 header, #paypal-donate, #development-title, .donate-button, .contact-title, #etsy-link, 
-#instagram-link, #twitter-link, #facebook-link, #telegram-link, #discord-link, #patreon-link {
+#instagram-link, #twitter-link, #facebook-link, #telegram-link, #discord-link, #patreon-link, #ebay-link {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -103,7 +103,7 @@ header > img, #paypal-donate > img, #development-title > img, .donate-button > i
 }
 
 #etsy-link > img, #instagram-link > img, #twitter-link > img, #facebook-link > img, 
-#discord-link > img, #telegram-link > img, #patreon-link > img, .furry-zone > img {
+#discord-link > img, #telegram-link > img, #patreon-link > img, .furry-zone > img, #ebay-link > img {
     height: 20px;
 }
 
@@ -161,6 +161,7 @@ header > img, #paypal-donate > img, #development-title > img, .donate-button > i
 
 .image-container {
     max-width: 700px;
+    margin: auto;
 }
 
 .image-with-flame {
