@@ -1,9 +1,0 @@
-RewriteEngine On
-RewriteCond %{REQUEST_FILENAME} !-d
-RewriteCond %{REQUEST_FILENAME}\.html -f
-RewriteRule ^(.*)$ $1.html [NC,L]
-
-# RewriteEngine on
-# RewriteCond %{HTTP_REFERER} !^$
-# RewriteCond %{HTTP_REFERER} !^http(s)?://(www\.)?bradleyharper.me [NC]
-# RewriteRule \.(gif|png|jpeg|jpg|svg)$ - [F]
