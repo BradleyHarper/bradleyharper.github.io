@@ -26,6 +26,20 @@ body {
     background-color: rgba(255,255,255,0.85);
 }
 
+button {
+    color: #ffffff;
+    background-color: #000000;
+    font-size: 19px;
+    border: 1px solid #2d63c8;
+    padding: 15px 50px;
+    cursor: pointer
+}
+
+button:hover {
+    color: #525d6f;
+    background-color: #ffffff;
+}
+
 header {
     display: flex;
     justify-content: center;
@@ -48,6 +62,10 @@ ul, li {
 
 li {
     font-size: 16px;
+}
+
+nav {
+    padding: 10px 0;
 }
 
 header > h1, #art > h1, #engine-repair > h1, #contact > h1, #paypal-donate > h1,
