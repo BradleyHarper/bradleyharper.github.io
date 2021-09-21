@@ -84,7 +84,7 @@ header > h1, #art > h1, #engine-repair > h1, #contact > h1, #paypal-donate > h1,
 }
 
 header, #paypal-donate, #development-title, .donate-button, .contact-title, #etsy-link, 
-#instagram-link, #twitter-link, #facebook-link, #telegram-link, #discord-link, #patreon-link, #ebay-link {
+#instagram-link, #twitter-link, #facebook-link, #telegram-link, #discord-link, #patreon-link, #ebay-link, #mail-click {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -103,7 +103,7 @@ header > img, #paypal-donate > img, #development-title > img, .donate-button > i
 }
 
 #etsy-link > img, #instagram-link > img, #twitter-link > img, #facebook-link > img, 
-#discord-link > img, #telegram-link > img, #patreon-link > img, .furry-zone > img, #ebay-link > img {
+#discord-link > img, #telegram-link > img, #patreon-link > img, .furry-zone > img, #ebay-link > img, #mail-click > img {
     height: 20px;
 }
 
