@@ -3,27 +3,15 @@
     src: URL('./assets/fonts/whitneylight.otf') format('otf');
 }
 
-@media only screen and (min-width: 800px) {
-    body {
-        margin: 0;
-        background-color: black;
-    }
-}
-
 html {
-    background-color: cyan; 
-    background-image: url("./assets/images/Scan-grouped2\ \(Custom\).png");
-    background-size: 800px;
+    background-color: whitesmoke; 
 }
 
 body {
     margin: 20px 10vw;
     padding: 0 20px;
-    border: black solid 5px;
-    border-radius: 50px;
     text-align: center;
     font-family: 'whitneylight', sans-serif;
-    background-color: rgba(255,255,255,0.85);
 }
 
 button {
@@ -175,11 +163,6 @@ header > img, #paypal-donate > img, #development-title > img, .donate-button > i
 
 .monero-icon, .cashapp-icon {
     height: 25px;
-}
-
-.monero-donate, .cashapp-donate, .venmo-donate, #paypal-donate {
-    background-color: lightgreen;
-    border-radius: 30px;
 }
 
 .venmo-donate > h3, .cashapp-donate > h3 {
