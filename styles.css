@@ -103,6 +103,12 @@ header > img, #paypal-donate > img, #development-title > img, .donate-button > i
     padding: 0 5px;
 }
 
+#social-media-links {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
 .commission-link {
     padding: 20px;
 }
