@@ -1,0 +1,10 @@
+# for root
+/*              /index.html     200
+​
+# for the rest
+/about/*        /about.html     200
+/contact/*      /contact.html   200
+/development/* /development.html 200
+/stickers/* /stickers.html 200
+/404/* /404.html 200
+/furry-art/ /furry-art.html 200
