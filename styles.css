@@ -1,6 +1,11 @@
-@font-face {
+/* @font-face {
     font-family:'whitneylight';
     src: URL('./assets/fonts/whitneylight.otf') format('otf');
+} */
+
+@font-face {
+    font-family: 'varelaRound-Regular';
+    src: url('./assets/fonts/VarelaRound-Regular.ttf') format('ttf');
 }
 
 html {
@@ -11,7 +16,7 @@ body {
     margin: 20px 10vw;
     padding: 0 20px;
     text-align: center;
-    font-family: 'whitneylight', sans-serif;
+    font-family: 'varelaRound-Regular', sans-serif;
 }
 
 header {
