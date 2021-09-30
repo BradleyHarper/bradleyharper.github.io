@@ -48,19 +48,6 @@ ul, li {
     list-style-type:none; 
 }
 
-li {
-    font-size: 16px;
-}
-
-nav {
-    padding: 10px 0;
-}
-
-header > h1, #art > h1, #engine-repair > h1, #contact > h1, #paypal-donate > h1,
-#development-title > h1, .contact-title {
-    text-decoration: underline;
-}
-
 #art, #development, #engine-repair, .contact-title {
     display: flex;
     flex-direction: column;
@@ -112,10 +99,6 @@ header > img, #paypal-donate > img, #development-title > img, .donate-button > i
     padding: 0 5px;
 }
 
-#title > h3 {
-    height: 8px;
-}
-
 .commission-link {
     padding: 20px;
 }
@@ -165,22 +148,8 @@ header > img, #paypal-donate > img, #development-title > img, .donate-button > i
     height: 25px;
 }
 
-.venmo-donate > h3, .cashapp-donate > h3 {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.venmo-icon {
-    height: 50px;
-}
-
 .monero-string {
     word-break: break-all;
-}
-
-.please-dont-think-its-sus {
-    word-break: break-word;
 }
 
 .rotation img {
