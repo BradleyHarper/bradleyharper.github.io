@@ -58,6 +58,11 @@ ul, li {
     align-items: center;
 }
 
+#cat-stretch {
+    display: flex;
+    align-items: flex-end;
+}
+
 #development-title > img {
     height: 50px;
 }
