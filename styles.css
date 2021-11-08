@@ -114,6 +114,12 @@ header > img, #paypal-donate > img, #development-title > img, .donate-button > i
     justify-content: space-evenly;
 }
 
+#title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .commission-link {
     padding: 20px;
 }
