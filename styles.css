@@ -3,13 +3,17 @@
     src: URL('./assets/fonts/whitneylight.otf') format('otf');
 } */
 
+* {
+    /* color: whitesmoke; */
+}
+
 @font-face {
     font-family: 'varelaRound-Regular';
     src: url('./assets/fonts/VarelaRound-Regular.ttf') format('ttf');
 }
 
 html {
-    background-color: white; 
+    background-color: orange; 
 }
 
 body {
@@ -43,7 +47,7 @@ nav {
 
 nav > a {
     text-decoration: none;
-    color: black;
+    color: white;
 }
 
 ul, li { 
@@ -61,6 +65,10 @@ ul, li {
 #cat-stretch {
     display: flex;
     align-items: flex-end;
+}
+
+#cat-stretch > img {
+    margin-right: 10px;
 }
 
 #development-title > img {
@@ -91,13 +99,17 @@ header > img, #paypal-donate > img, #development-title > img, .donate-button > i
     height: 20px;
 }
 
+#mail-click > h3 > a {
+    color: white;
+}
+
 #social-media {
     display: flex;
     padding-bottom: 15px;
 }
 
 #social-media-disclaimer {
-    background-color: antiquewhite;
+    /* background-color: antiquewhite; */
     border: 3px solid;
     border-radius: 30px;
     width: 150px;
@@ -112,6 +124,10 @@ header > img, #paypal-donate > img, #development-title > img, .donate-button > i
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
+}
+
+#social-media-links > div > a {
+    color: white;
 }
 
 #title {
@@ -171,6 +187,10 @@ header > img, #paypal-donate > img, #development-title > img, .donate-button > i
 
 .monero-string {
     word-break: break-all;
+}
+
+.new-shop-ad > a{
+    color: white;
 }
 
 .rotation img {
