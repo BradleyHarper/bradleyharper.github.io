@@ -4,7 +4,7 @@
 } */
 
 * {
-    /* color: whitesmoke; */
+    color: #ff7420;
 }
 
 @font-face {
@@ -13,7 +13,7 @@
 }
 
 html {
-    background-color: orange; 
+    background-color: #250f00; 
 }
 
 body {
