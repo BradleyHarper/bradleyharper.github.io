@@ -207,7 +207,7 @@ header > img, #paypal-donate > img, #development-title > img, .donate-button > i
     -ms-transform: rotate(360deg);
     }
 
-.smile-fox {
+.smile-fox, .pawpsicle, .skully {
     height: 50vw;
     max-width: 700px;
     max-height: 700px;
