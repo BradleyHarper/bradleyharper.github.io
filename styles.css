@@ -13,7 +13,7 @@
 }
 
 html {
-    background-color: #0f0600; 
+    background-color: #0f0600;
 }
 
 body {
@@ -206,6 +206,12 @@ header > img, #paypal-donate > img, #development-title > img, .donate-button > i
     -o-transform: rotate(360deg);
     -ms-transform: rotate(360deg);
     }
+
+.smile-fox {
+    height: 50vw;
+    max-width: 700px;
+    max-height: 700px;
+}
 
 .synx-logo {
     height: 50px;
