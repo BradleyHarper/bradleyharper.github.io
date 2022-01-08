@@ -40,14 +40,18 @@ footer {
 nav {
     display: flex;
     justify-content: space-around;
-    width: 300px;
+    width: 450px;
     border-bottom: 1px black solid;
     margin: auto;
 }
 
 nav > a {
-    text-decoration: none;
+    text-decoration: underline;
     color: white;
+}
+
+nav > a:hover {
+    color: grey;
 }
 
 ul, li { 
@@ -60,6 +64,12 @@ ul, li {
     display: flex;
     flex-direction: column;
     align-items: center;
+}
+
+#bustlol {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
 }
 
 #cat-stretch {
@@ -103,6 +113,9 @@ header > img, #paypal-donate > img, #development-title > img, .donate-button > i
     color: white;
 }
 
+#mail-click > h3 > a:hover {
+    color: grey;
+}
 #social-media {
     display: flex;
     padding-bottom: 15px;
@@ -128,6 +141,10 @@ header > img, #paypal-donate > img, #development-title > img, .donate-button > i
 
 #social-media-links > div > a {
     color: white;
+}
+
+#social-media-links > div > a:hover {
+    color: grey;
 }
 
 #title {
@@ -189,8 +206,12 @@ header > img, #paypal-donate > img, #development-title > img, .donate-button > i
     word-break: break-all;
 }
 
-.new-shop-ad > a{
+.new-shop-ad > a {
     color: white;
+}
+
+.new-shop-ad > a:hover {
+    color: grey;
 }
 
 .rotation img {
