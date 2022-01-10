@@ -4,6 +4,7 @@
 # for the rest
 /development/* /development.html 200
 /commissions/* /commissions.html 200
+/quote/* /quote.html 200
 /reviews/* /reviews.html 200
 /404/* /404.html 200
 /art/* /art.html 200

@@ -1,8 +1,3 @@
-/* @font-face {
-    font-family:'whitneylight';
-    src: URL('./assets/fonts/whitneylight.otf') format('otf');
-} */
-
 * {
     color: #ff7420;
 }
@@ -64,6 +59,19 @@ ul, li {
     display: flex;
     flex-direction: column;
     align-items: center;
+}
+
+#branding-main-container {
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: inherit;
+}
+
+#branding-main-container > img {
+    max-height: 60vw;
+    max-width: 60vw;
 }
 
 #bustlol {
