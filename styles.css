@@ -114,7 +114,11 @@ header > img, #paypal-donate > img, #development-title > img, .donate-button > i
     max-height: 700px;
 }
 
-#patpat > img {
+#gifs-without-bg, #gifs-with-bg {
+    padding: 20px;
+}
+
+#gifs-without-bg > img, #gifs-with-bg > img {
     max-height: 80px;
 }
 
