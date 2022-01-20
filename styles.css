@@ -114,6 +114,10 @@ header > img, #paypal-donate > img, #development-title > img, .donate-button > i
     max-height: 700px;
 }
 
+#patpat > img {
+    max-height: 80px;
+}
+
 #paypal-donate > img {
     height: 40px;
 }
