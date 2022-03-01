@@ -196,10 +196,11 @@ header > img, #paypal-donate > img, #development-title > img, .donate-button > i
     padding-bottom: 20px;
 }
 
-.discord-iframe {
+.discord-iframe, #minecraft-disclaimer {
     background-color: #4d2309;
     -webkit-box-shadow: 0px 0px 11px 4px rgba(255,116,32,0.29); 
     box-shadow: 0px 0px 11px 4px rgba(255,116,32,0.29);
+    margin: 25px;
 }
 
 .flame {
