@@ -138,6 +138,11 @@ header > img, #paypal-donate > img, #development-title > img, .donate-button > i
 #mail-click > h3 > a:hover {
     color: grey;
 }
+
+#minecraft-disclaimer {
+    padding: 10px;
+}
+
 #social-media {
     display: flex;
     padding-bottom: 15px;
@@ -201,7 +206,6 @@ header > img, #paypal-donate > img, #development-title > img, .donate-button > i
     -webkit-box-shadow: 0px 0px 11px 4px rgba(255,116,32,0.29); 
     box-shadow: 0px 0px 11px 4px rgba(255,116,32,0.29);
     margin: 25px;
-    padding: 20px;
 }
 
 .flame {
