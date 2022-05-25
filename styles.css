@@ -180,6 +180,10 @@ header > img, #paypal-donate > img, #development-title > img, .donate-button > i
     align-items: center;
 }
 
+#title > h1 {
+    color: white;
+}
+
 .commission-link {
     padding: 20px;
 }
